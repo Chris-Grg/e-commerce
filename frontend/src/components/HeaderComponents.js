@@ -40,7 +40,7 @@ function HeaderComponents() {
             </InputGroup>
           </Nav>
           <Nav>
-            <LinkContainer to="/admin/order">
+            <LinkContainer to="/admin/orders">
               <Nav.Link>
                 Admin
                 <span className="position-absolute top-1 start-10 translate-middle p-2 bg-danger border border-light rounded-circle"></span>

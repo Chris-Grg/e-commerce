@@ -23,10 +23,10 @@ import UserOrdersPage from "./pages/user/UserOrdersPage";
 import UserProfilePage from "./pages/user/UserProfilePage";
 
 //protected admin pages:
-import AdminAnalytics from "./pages/admin/AdminAnalytics";
+import AdminAnalyticsPage from "./pages/admin/AdminAnalyticsPage";
 import AdminChatsPage from "./pages/admin/AdminChatsPage";
 import AdminCreateProductsPage from "./pages/admin/AdminCreateProductPage";
-import AdminEditProductsPage from "./pages/admin/AdminEditProductsPage";
+import AdminEditProductPage from "./pages/admin/AdminEditProductPage";
 import AdminEditUserPage from "./pages/admin/AdminEditUserPage";
 import AdminOrderDetailsPage from "./pages/admin/AdminOrderDetailsPage";
 import AdminOrdersPage from "./pages/admin/AdminOrdersPage";
@@ -70,7 +70,7 @@ function App() {
           />
           <Route
             path="/admin/edit-product"
-            element={<AdminEditProductsPage />}
+            element={<AdminEditProductPage />}
           />
           <Route path="/admin/orders" element={<AdminOrdersPage />} />
           <Route
@@ -78,7 +78,7 @@ function App() {
             element={<AdminOrderDetailsPage />}
           />
           <Route path="/admin/chats" element={<AdminChatsPage />} />
-          <Route path="/admin/analytics" element={<AdminAnalytics />} />
+          <Route path="/admin/analytics" element={<AdminAnalyticsPage />} />
         </Route>
         <Route path="*" element="Error" />
       </Routes>
